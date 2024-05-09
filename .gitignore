@@ -1,0 +1,23 @@
+# Diretórios para ignorar
+bin/
+pkg/
+tmp/
+vendor/
+
+# Arquivos para ignorar
+*.iml
+*.log
+*.swp
+*.DS_Store
+*.env
+*.crt
+*.key
+
+# IDE e arquivos de configuração específicos
+go.build
+go.mod
+go.sum
+.vscode
+
+# Diretórios de cache
+cache/
